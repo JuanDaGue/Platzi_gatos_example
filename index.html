@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Album</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>My Cat Album</h1>
+    </header>
+    <div class="tit">
+        <h2 id="Title">Choose your favorite cat</h2>
+    </div>
+    <main class="album">
+        <div class="album-container">
+            <div class="card">
+                <img id="img1"  alt="Pet 1">
+                <div class="info">
+                    <h2>Save the cat 1</h2>
+                    <p>Some description about Cat 1.</p>
+                    <button id ="btn1">Save image</button>
+                </div>
+            </div>
+            <div class="card">
+                <img id="img2"  alt="Pet 2">
+                <div class="info">
+                    <h2>Save the cat 2</h2>
+                    <p>Some description about Cat 2.</p>
+                    <button id ="btn2">Save image</button>
+                </div>
+            </div>
+            <!-- Add more pet cards as needed -->
+        </div>
+
+    </main>
+
+    <button type="button" class="reload">
+        Search more Pets</button>
+
+
+<main class="form">
+    <div class="info">
+        <h2>Upload your own images</h2>
+        <form id="formUpload">
+            <label for="file" class="custom-file-upload">
+                Select File
+            </label>
+            <input type="file" id="file" name="file">
+            <span id="file-name">No file chosen</span>
+            <button class="upload" type="button" onclick="uploadCat()">Upload</button>
+        </form>
+    </div>
+
+ </main>
+
+
+ <div class="tit">
+        <h2 id="Title">Album</h2>
+</div>
+
+    <main class="album">
+        <div class="favourite album-container">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 My Cat Album. Exercise for Platzi.com by Juan D Guerrero.</p>
+    </footer>
+    <script src="src/main.js"></script>
+</body>
+</html>
