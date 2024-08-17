@@ -1,0 +1,22 @@
+
+- `index.html`: The main HTML file that contains the structure of the web page.
+- `styles.css`: The CSS file that contains the styles for the web page.
+- `script.js`: The JavaScript file that contains the logic for fetching and displaying cat pictures.
+
+### API Reference
+
+This project uses the Cat API to fetch cat pictures. You can find the documentation for the API here.
+
+### Contributing
+
+If you would like to contribute to this project, please fork the repository and submit a pull request.
+
+### License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### Acknowledgements
+
+- The Cat API for providing the cat pictures.
+- All contributors and users for their support.
+
